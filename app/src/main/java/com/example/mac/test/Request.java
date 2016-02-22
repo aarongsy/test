@@ -48,7 +48,7 @@ public class Request extends ActionBarActivity{
             }
         });*/
 
-        Button btn4 = (Button)findViewById(R.id.button168);
+        Button btn4 = (Button)findViewById(R.id.buttonrequest);
 
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,14 +57,7 @@ public class Request extends ActionBarActivity{
             }
         });
 
-        Button btn5 = (Button)findViewById(R.id.button166);
-
-        btn5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Request.this, Report.class));
-            }
-        });
+        
 
         /*Button btn6 = (Button)findViewById(R.id.button167);
 
