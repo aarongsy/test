@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.diana.test3.Disclaimer"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/background2">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Disclaimer"
+        android:id="@+id/textView4"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textColor="#ff080808"
+        android:textIsSelectable="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="210dp"
+        android:id="@+id/scrollView5"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:fillViewport="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Nappy Zap, this app is made to provide an easiest way for household users to recycle their disposable nappies.It is a free app and does not contain any CHARGE when you use this app                                                               --------NappyZap project team                               ."
+            android:id="@+id/textView5"
+            android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISAGREE"
+        android:id="@+id/button4"
+        android:textSize="@dimen/new2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/scrollView5"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGREE"
+        android:id="@+id/button5"
+        android:textSize="@dimen/new2"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignEnd="@+id/scrollView5" />
+</RelativeLayout>
