@@ -25,36 +25,16 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
 
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:text="Contact"
-        android:id="@+id/button166"
-        android:textSize="@dimen/new2"
-        android:layout_marginLeft="0dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"/>
+
 
     <Button
-        android:layout_width="70dp"
-        android:layout_height="50dp"
-        android:text="Tracker"
-        android:id="@+id/button167"
-        android:layout_marginLeft="100dp"
-        android:textSize="@dimen/new2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:layout_width="85dp"
-        android:layout_height="50dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
         android:text="Request pickup now"
         android:id="@+id/button168"
         android:textSize="@dimen/new2"
         android:layout_below="@+id/scrollView7"
-        android:layout_toLeftOf="@+id/button165"
-        android:layout_alignLeft="@+id/button167"
-        android:layout_alignStart="@+id/button167" />
+        android:layout_centerHorizontal="true" />
 
 
     <ScrollView

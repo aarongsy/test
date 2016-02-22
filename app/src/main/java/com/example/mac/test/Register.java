@@ -47,6 +47,7 @@ public class Register extends ActionBarActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
+                //get input email and password
                 EditText email = (EditText)findViewById(R.id.editemailAddress);
                 EditText pass = (EditText)findViewById(R.id.editpassword);
                 setLogin(String.valueOf(email.getText()), String.valueOf(pass.getText()), getApplicationContext());

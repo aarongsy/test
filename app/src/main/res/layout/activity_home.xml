@@ -12,8 +12,9 @@
         android:layout_height="50dp"
         android:text="LOGIN"
         android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp" />
 
 
     <TextView
